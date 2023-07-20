@@ -1,0 +1,105 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+h1{
+  padding-bottom: 10px;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+#applelogo,#playstore{
+  margin-bottom: 6px;
+  margin-right: 5px; 
+}
+.feature-icon{
+  border-radius: 40%;
+}
+.bi{
+  background-color:gainsboro;
+  border-radius: 30%;
+  padding: 5px;
+}
+.address{
+  margin: 10px;
+  font-size:larger;
+  font-weight: lighter;
+  font-style: italic;
+}
+.img1,.img2,.img3,.img4{
+ margin: 70px;
+}
+.img1{
+  width: 150px;
+}
+.img2{
+  width: 150px;
+}
+.img3{
+  width: 150px;
+}
+.img4{
+  width:80px
+}
+.display-4{
+  margin-top: 30px;
+}
+.card{
+  column-width: 250px;
+}
+.my-0{
+  color: white;
+}
+#mastiff{
+  background-color: black;
+}
+#btnbl{
+  background-color: black;
+  color: white;
+}
+#first2pricing{
+  background-color: lightgray;
+}
+#pricingcolor{
+  color: black;
+}
+#pricingdiv{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#colwidth{
+  column-width: 250px;
+}
+.container{
+  margin:0px;
+}
+#footer{
+
+}
+#iosbtn{
+  background-color: white;
+}
